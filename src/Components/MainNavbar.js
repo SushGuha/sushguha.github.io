@@ -12,27 +12,25 @@ const MainNavbar = () => {
       return false;
     }
   };
-  console.log(currentPath);
   const [isHome, setIsHome] = useState(first());
-
-  const numChange = () => {
-    setIsHome(!isHome);
+  const numChange1 = () => {
+    if (currentPath !== "/") {
+      setIsHome(true);
+    }
+  };
+  const numChange2 = () => {
+    if (currentPath === "/") {
+      setIsHome(false);
+    }
   };
   return (
     <ReactBootstrap.Navbar expand="lg">
       <ReactBootstrap.Container>
-        {/* <ReactBootstrap.Navbar.Brand
-          href="#home"
-          className="navText"
-          style={{ color: "red" }}
-        >
-          Welcome!
-        </ReactBootstrap.Navbar.Brand> */}
         <ReactBootstrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
         <ReactBootstrap.Navbar.Collapse id="basic-navbar-nav">
           <ReactBootstrap.Nav className="me-auto">
             <Link
-              onClick={numChange}
+              onClick={numChange1}
               className={`navText ${isHome ? "navText1" : "navText2"}`}
               style={{ marginRight: "10%" }}
               to="/"
@@ -41,7 +39,7 @@ const MainNavbar = () => {
             </Link>
 
             <Link
-              onClick={numChange}
+              onClick={numChange2}
               className={`navText ${isHome ? "navText2" : "navText1"}`}
               to="/contact"
             >
