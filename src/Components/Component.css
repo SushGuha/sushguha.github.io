@@ -1,0 +1,74 @@
+.navText {
+  font-size: 88%;
+}
+
+li:hover {
+  color: yellowgreen;
+  text-decoration: underline;
+}
+
+.Container {
+  background-color: blue;
+}
+
+.points {
+  font-size: 70%;
+  color: aqua;
+}
+
+.job {
+  font-size: 97%;
+  color: aquamarine;
+}
+
+button {
+  margin: 0px 5px 2px 2px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 50px;
+  min-height: 40px;
+}
+
+.bordered {
+  border-style: dotted;
+}
+
+.bio {
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 60px;
+  margin-left: 60px;
+  font-family: "Shippori Antique", sans-serif;
+}
+
+.icons {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navText2 {
+  color: white;
+  text-decoration: none;
+}
+
+.navText1 {
+  color: gray;
+  text-decoration: none;
+}
+
+.footer {
+  font-family: "Shippori Antique", sans-serif;
+  color: aqua;
+  font-size: medium;
+  text-align: center;
+  margin-top: 90px;
+}
