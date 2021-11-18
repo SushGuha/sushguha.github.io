@@ -64,6 +64,7 @@ export default class Form extends React.Component {
       from_name: this.state.name,
       reply_to: this.state.email,
     });
+    this.setState({ feedback: "" });
   }
 
   sendFeedback(templateId, variables) {
