@@ -77,10 +77,6 @@ const Main = () => {
         </Row>
         <Row>
           <div style={{ textAlign: "center", paddingTop: "6px" }}>
-            {/* <FontAwesomeIcon
-            className="fa-4x icons"
-            icon={faYoutube}
-          ></FontAwesomeIcon> */}
             <a
               style={{ color: "green" }}
               href="https://github.com/SushGuha"
@@ -114,17 +110,6 @@ const Main = () => {
                 icon={faEnvelope}
               ></FontAwesomeIcon>
             </a>
-            {/* <a
-            style={{ color: "green" }}
-            href="https://github.com/SushGuha"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon
-              className="fa-4x icons"
-              icon={faYoutube}
-            ></FontAwesomeIcon>
-          </a> */}
           </div>
         </Row>
         <Row>
@@ -133,9 +118,11 @@ const Main = () => {
               className="btn btn-outline-info align-self-center"
               style={{
                 margin: "6% 0px 0px 0px",
-                width: "12%",
+                // width: "15%",
                 borderRadius: "40px",
                 fontFamily: `"Shippori Antique", sans-serif`,
+                fontSize: "medium",
+                textAlign: "center",
               }}
               href="https://drive.google.com/file/d/10vpdnDxOcLag4Qg1y5-VOz1TBqAAzxrq/view?usp=sharing"
               target="_blank"
