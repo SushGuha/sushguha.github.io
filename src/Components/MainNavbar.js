@@ -43,7 +43,7 @@ const MainNavbar = () => {
               className={`navText ${isHome ? "navText2" : "navText1"}`}
               to="/contact"
             >
-              Contact
+              About
             </Link>
           </ReactBootstrap.Nav>
         </ReactBootstrap.Navbar.Collapse>

@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "./Component.css";
 import Experiences from "./Experiences";
+import Skills from "./Skills";
 const experience = [
   {
     id: 1,
@@ -133,81 +134,10 @@ const Main = () => {
           </p>
         </Row>
       </Container>
-      <Experiences style={{ minHeight: "100vh" }} tasks={experience} />
+      <Experiences tasks={experience} />
+      <Skills />
     </div>
   );
 };
 
 export default Main;
-
-// <Container style={{ minHeight: "100vh" }}>
-//   <Row>
-//     <Col xs={{ order: "first" }}>
-//       {/* image */}
-//       <img
-//         src={`https://www.aperturebuzz.com/wp-content/uploads/2018/04/windows_xp_bliss-wide.jpg`}
-//         width={"40%"}
-//         height={"50%"}
-//         alt="My 'Wonderful' face"
-//       />
-//     </Col>
-//   </Row>
-//   <Row>
-//     <Col xs={{ order: "first" }}></Col>
-//     <Col>
-//       {/* <a
-//         className="col btn btn-outline-info content-first align-self-center"
-//         style={{ margin: "40px 0px 0px 0px", borderRadius: "40px" }}
-//         href="https://drive.google.com/file/d/1PBpbGg16tc4UA38jxAxY-J4Lyx-xvxf0/view?usp=sharing"
-//         target="_blank"
-//         rel="noopener noreferrer"
-//       >
-//         <p style={{ paddingTop: "9%", fontSize: "90%" }}>My Resume!</p>
-//       </a> */}
-//       <a
-//         className="col btn btn-outline-info content-first align-self-center"
-//         style={{
-//           margin: "40px 0px 0px 0px",
-//           width: "40%",
-//           borderRadius: "40px",
-//         }}
-//         href="https://drive.google.com/file/d/1PBpbGg16tc4UA38jxAxY-J4Lyx-xvxf0/view?usp=sharing"
-//         target="_blank"
-//         rel="noopener noreferrer"
-//       >
-//         My Resume!
-//       </a>
-//     </Col>
-//     <Col xs={{ order: "last" }}></Col>
-//   </Row>
-//   <Row>
-//     <Col xs={{ order: "first" }}></Col>
-//     <Col
-//       className="rounded border-3 border border-info"
-//       xs={{ order: "last" }}
-//     >
-//       <p
-//         className="points"
-//         style={{ textAlign: "center", fontSize: "105%" }}
-//       >
-//         Hi!
-//       </p>
-//       <p
-//         className="points rounded border-3 border border-info"
-//         style={{
-//           textAlign: "center",
-//           fontSize: "80%",
-//           marginRight: "15%",
-//           marginLeft: "15%",
-//           paddingRight: "5%",
-//           paddingLeft: "5%",
-//           paddingBottom: "2%",
-//         }}
-//       >
-//         I'm Sushant Guha, a methodical and team-minded second year CmpE
-//         major with strong foundations in programming and software and web
-//         development specializing in Distributed systems and software design.
-//       </p>
-//     </Col>
-//   </Row>
-// </Container>

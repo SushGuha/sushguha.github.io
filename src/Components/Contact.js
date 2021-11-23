@@ -2,6 +2,7 @@ import React from "react";
 import Form from "./Form";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import foto from "./cropped.png"; // with import
 import {
   faGithub,
   faLinkedin,
@@ -11,22 +12,42 @@ import {
 const Contact = () => {
   return (
     <div>
+      <div
+        style={{
+          marginLeft: "15%",
+          marginRight: "15%",
+          marginTop: "4.5%",
+          fontFamily: `"Shippori Antique", sans-serif`,
+          textAlign: "center",
+          minHeight: "95vh",
+        }}
+      >
+        <img className="image" style={{ marginBottom: "5%" }} src={foto} />
+        <p>
+          I'm Sushant Guha, a student of Computer Engineering passionate about
+          Software and Web technologies. I am a sophomore currently pursing a
+          bachelor's degree at Georgia Institute of Technology having completed
+          my first year at the University of Toronto. I have past work
+          experience in web development, and have gained skills across multiple
+          front-end framekworks, and middleware and backend technologies. If you
+          would like to work on a project together, you can connect with me
+          using the information below!
+        </p>
+      </div>
       <h1
         style={{
           textAlign: "center",
           color: "aqua",
-          marginTop: "7%",
           fontFamily: `"Shippori Antique", sans-serif`,
         }}
       >
         CONNECT WITH ME
       </h1>
-
       <div
         className="border-top border-info border-5"
         style={{
           textAlign: "center",
-          paddingTop: "6px",
+
           marginLeft: "25%",
           marginRight: "25%",
         }}
