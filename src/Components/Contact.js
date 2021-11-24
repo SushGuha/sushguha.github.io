@@ -25,11 +25,11 @@ const Contact = () => {
         <img className="image" style={{ marginBottom: "5%" }} src={foto} />
         <p>
           I'm Sushant Guha, a student of Computer Engineering passionate about
-          Software and Web technologies. I am a sophomore currently pursing a
+          Software and Web technologies. I am a sophomore currently pursuing a
           bachelor's degree at Georgia Institute of Technology having completed
           my first year at the University of Toronto. I have past work
           experience in web development, and have gained skills across multiple
-          front-end framekworks, and middleware and backend technologies. If you
+          front-end frameworks, and middleware and backend technologies. If you
           would like to work on a project together, you can connect with me
           using the information below!
         </p>

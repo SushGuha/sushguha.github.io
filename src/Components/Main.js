@@ -13,33 +13,39 @@ const experience = [
     job: "Full Stack Web Developer",
     date: "June – August 2021",
     company: "Ernst & Young",
-    desc: `I built a component suite to display and store 15 internal AI 
-    projects. The AngularJS framework was used for the frontend, with angular routing, modules, and lazy loading 
-    used to optimize website load times. Bootstrap-4 was used to improve styling, provide a better user experience, 
-    and to ensure consistency in the website. .NET-5 middleware was used to connect the frontend with the
-    databse. JSON Web Tokens were incorporated into the middleware to improve user experience. PostgreSQL was used for
-    the backend to store login information, and to control user access to the Artificial Intelligence projects.`,
+    desc: `I built a component suite to display and store 15 internal
+     AI projects. The AngularJS framework was used for the frontend, 
+     with angular routing, modules, and lazy loading used to optimize 
+     website load times. Bootstrap-4 was used to improve styling, provide 
+     a better user experience, and to ensure consistency in the website. 
+     .NET-5 middleware was used to connect the frontend with the database. 
+     JSON Web Tokens were incorporated into the middleware to improve user 
+     experience. PostgreSQL was used for the backend to store login information, 
+     and to control user access to the Artificial Intelligence projects.`,
   },
   {
     id: 2,
     job: "CANBUS Lead & Discharge Team",
     date: "August '20 – July '21",
     company: "University Of Toronto Formula Racing",
-    desc: `I managed a team to collect telemetry data from the CANBUS to 
-    improve performance of a formula racing car. The CANBUS and a Wifi module were
-    connected to an Arduino board. The Arduino was programmed 
-    to transmit this data to the telemetry monitoring team. A a part of the electric FSAE team, I also 
-    designed a safety system to discharge the car's accumulator from over 550VDC in under 6 seconds.`,
+    desc: `I managed a team to collect telemetry data from the 
+    CANBUS to improve the performance of a formula racing car. 
+    The CANBUS and a Wifi module were connected to an Arduino board. 
+    The Arduino was programmed to transmit this data to the telemetry 
+    monitoring team. A a part of the electric FSAE team, I also designed 
+    a safety system to discharge the car's accumulator from over 550VDC in 
+    under 6 seconds.`,
   },
   {
     id: 3,
     job: "Stock Manager Dashboard",
     date: "June '21 - Present",
     company: "Personal Project",
-    desc: `I am implementing a full stack stock bot dashboard that manages 
-    portfolio value and stock options. I am programming a system to display
-    historical stock trends, portfolio valuation and suggest valuable stock to purchase. ReactJS is used
-    for the frontend of the site along with plotly, and PostgreSQL is used as the databse.`,
+    desc: `I am implementing a full-stack stock bot dashboard that manages 
+    portfolio value and stock options. I am programming a system to display 
+    historical stock trends, portfolio valuation and suggest valuable stock 
+    to purchase. ReactJS is used for the frontend of the site along with plotly, 
+    and PostgreSQL is used as the database.`,
   },
   {
     id: 4,
@@ -75,7 +81,7 @@ const Main = () => {
           style={{ marginLeft: "10%", marginRight: "10%", marginTop: "1%" }}
         >
           <p style={{ marginBottom: "15px" }}>
-            I'm Sushant Guha, a methodical and team-minded second year CmpE
+            I'm Sushant Guha, a methodical and team-minded second-year CmpE
             major with strong foundations in programming and software, web
             development specializing in Distributed systems and software design.
             Welcome to my website! This site highlights my work experience,
