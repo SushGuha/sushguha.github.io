@@ -90,21 +90,45 @@ const Contact = () => {
             I developed this site using the ReactJS front-end framework. Given
             my past experience with Web development in Angular, I decided to
             explore other frameworks and apply my knowledge of web development
-            under different settings. I used Bootstrap to better improve the
-            user interface of the site, and provide better maintainability over
-            time. This allowed me to explore the newer Bootstrap version of
-            Bootstrap-5. I incorporated the FontAwesome icon packages to further
-            improve the website's user interface and provide a better way for
-            users to reach out to me. I used Figma, an interface design tool to
-            better visualise my website prior to development. This helped me
-            design a more user-friendly interface and save time. Through this
-            process, I also learnt to better use colours to draw user attention.
-            I learnt to use EmailJS, a lightweight email service to send emails
+            for a different type of website. I gained knowledge on React
+            concepts including React Components, React Router, State, and Hooks.
+            I used React Components to increase the utilization of existing code
+            to improve modularity. Furthermore, I used the React Router to more
+            efficiently route between pages without having to refresh the entire
+            webpage. This improves the loading time and responsiveness of the
+            webpage. I used Bootstrap, an open-source CSS framework to better
+            improve the user interface of the site, and provide better
+            maintainability over time. This allowed me to explore the newer
+            Bootstrap version of Bootstrap-5. I learnt to better style my
+            components both for functionality and aesthetics. The use of
+            Bootstrap styles also taught me the importance of website
+            scaleability (The design of the website in different viewing
+            frames). I learnt to design a responsive site that could be viewed
+            across multiple devices and platforms. I also learnt to incorporate
+            FontAwesome icon packages to further improve the website's user
+            interface. FontAwesome is a library of fonts and icons for web
+            development. I used Font Awesome to provide a better way for users
+            to reach out to me. This includes Icons for social media, GitHub,
+            and LinkedIn. I used Figma, an interface design tool to better
+            visualise my website prior to development. This helped me design a
+            more user-friendly interface through better layout, colour and font
+            choices, and component design. Through this process, I also learnt
+            to better use colours to draw user attention to specific components,
+            and provide the user with a better overall experience. I managed to
+            incorporate Google Fonts, an open-source project with font families.
+            It is the most widely used font service. I learnt to incorporate
+            Google Fonts into my React application to build a better user
+            interface and provide users with a better reading experience. I
+            learnt to use EmailJS, a lightweight email service to send emails
             directly from JavaScript. I learnt to integrate the service with
             React without the use of a backend, vastly improving the performance
-            of the website. Finally, I learnt to deploy and host a React website
-            on GitHub. I learnt to build a react app to generate a more
-            efficient webpage, and to deploy that site using GitHub pages.
+            of the website. I gained experience with the use of Git, a version
+            control system that tracks previous versions of the file. Using Git,
+            I was able to more effectively make and revert to changes in my
+            file. This helped me reduce debugging time and more efficiently
+            develop the webpage. Finally, I researched how to deploy and host a
+            React website on GitHub. I learnt to build a react app to generate a
+            more efficient webpage and to deploy that site using GitHub pages.
           </p>
         </Row>
       </Container>

@@ -7,8 +7,8 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "./Component.css";
 import Experiences from "./Experiences";
 import Skills from "./Skills";
-import education from "./Education";
-import ExperienceModule from "./ExperienceModule";
+import Education from "./Education";
+
 const experience = [
   {
     id: 1,
@@ -149,16 +149,7 @@ const Main = () => {
           </p>
         </Row>
       </Container>
-      <div style={{ marginBottom: "4%" }}>
-        <Container>
-          <Row>
-            <h1 style={{ paddingBottom: "2%", color: "aqua" }}>Education</h1>
-          </Row>
-        </Container>
-        {education.map((task) => (
-          <ExperienceModule key={task.id} task={task} />
-        ))}
-      </div>
+      <Education />
       <Experiences tasks={experience} />
       <Skills />
     </div>

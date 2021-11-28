@@ -7,8 +7,15 @@ const Experiences = (props) => {
     <div>
       <Container>
         <Row>
-          <h1 style={{ paddingBottom: "2%", color: "aqua" }}>
-            Work Experience
+          <h1
+            style={{
+              paddingTop: "1%",
+              paddingBottom: "2%",
+              color: "aqua",
+              textAlign: "center",
+            }}
+          >
+            WORK EXPERIENCE
           </h1>
         </Row>
       </Container>
