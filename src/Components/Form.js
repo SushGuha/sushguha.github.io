@@ -57,6 +57,14 @@ export default class Form extends React.Component {
   }
 
   handleSubmit() {
+    if (
+      this.state.feedback === null ||
+      this.state.feedback.length === 0 ||
+      this.state.feedback === ""
+    ) {
+      console.log("Is null");
+      return;
+    }
     const templateId = "template_g3dyiw2";
 
     this.sendFeedback(templateId, {
