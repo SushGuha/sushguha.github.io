@@ -54,6 +54,20 @@ const Skills = () => {
             PostgreSQL, Git, GitHub,VSCode, Autodesk Fusion 360, Office365
           </Col>
         </Row>
+        <Row
+          className="border-bottom border-info border-1"
+          style={{ marginBottom: "2%" }}
+        >
+          <Col xs={{ order: "first" }}>
+            <h2 className="job">Other</h2>
+          </Col>
+          <Col
+            style={{ textAlign: "center", fontSize: "85%" }}
+            xs={{ order: "last" }}
+          >
+            Engineering Documentation, Teamwork, Conflict Resolution
+          </Col>
+        </Row>
       </Container>
     </div>
   );
