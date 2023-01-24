@@ -23,7 +23,7 @@ const Skills = () => {
             style={{ textAlign: "center", fontSize: "85%" }}
             xs={{ order: "last" }}
           >
-            C, C++, Python, Java, HTML, CSS, JavaScript, TypeScript, SQL, LaTeX
+            Java, Python, JavaScript, C/C++, HTML, CSS, CUDA, VHDL, Verilog
           </Col>
         </Row>
         <Row
@@ -37,7 +37,22 @@ const Skills = () => {
             style={{ textAlign: "center", fontSize: "85%" }}
             xs={{ order: "last" }}
           >
-            ReactJS, Angular, .NET-5, Python Flask
+            NodeJS, React, Angular, ExpressJS, Bootstrap, Socket.io, SFML,
+            OpenMP, MPI, Linux
+          </Col>
+        </Row>
+        <Row
+          className="border-bottom border-info border-1"
+          style={{ marginBottom: "2%" }}
+        >
+          <Col xs={{ order: "first" }}>
+            <h2 className="job">Databases</h2>
+          </Col>
+          <Col
+            style={{ textAlign: "center", fontSize: "85%" }}
+            xs={{ order: "last" }}
+          >
+            SQL, MongoDB, Firebase, Elasticsearch, PostgreSQL, InfluxDB{" "}
           </Col>
         </Row>
         <Row
@@ -51,7 +66,7 @@ const Skills = () => {
             style={{ textAlign: "center", fontSize: "85%" }}
             xs={{ order: "last" }}
           >
-            PostgreSQL, Git, GitHub,VSCode, Autodesk Fusion 360, Office365
+            Git, GitHub, VSCode, Microsoft Office Suite and Libre Office Suite{" "}
           </Col>
         </Row>
         <Row

@@ -27,7 +27,7 @@ const Contact = () => {
         <img className="image" style={{ marginBottom: "5%" }} src={foto} />
         <p>
           I'm Sushant Guha, a student of Computer Engineering passionate about
-          Software and Web technologies. I am a sophomore currently pursuing a
+          Software and Web technologies. I am a junior currently pursuing a
           bachelor's degree at Georgia Institute of Technology having completed
           my first year at the University of Toronto. I have past work
           experience in web development, and have gained skills across multiple
@@ -57,23 +57,17 @@ const Contact = () => {
             <span style={{ color: "green" }}>
               {" "}
               I am looking to take part in an internship this summer (Summer of
-              2022) to further explore Software development
+              2023) to further explore Software development
             </span>
             . I hope to use my knowledge and experience to help both develop new
             applications and improve software currently used worldwide. I am
             also looking to learn more about hardware and software systems
-            through my threads at aTech. Over the following term (Spring 2022),
-            I will be taking courses on Java data structures and algorithms,
-            discrete math, programming HW/SW systems, and Digital System Design.
-            Throughout my junior and senior years (Fall '22 - Spring '24), I
-            will continue to explore these concepts with coursework in Very
-            Large Scale Integration (VLSI), Cloud Computing, GPU Programming,
-            Mobile Computing, and Embedded Systems Design.
+            through my threads at GaTech.
           </p>
         </Row>
       </Container>
 
-      <Container
+      {/* <Container
         style={{
           fontFamily: `"Shippori Antique", sans-serif`,
           textAlign: "center",
@@ -131,7 +125,7 @@ const Contact = () => {
             more efficient webpage and to deploy that site using GitHub pages.
           </p>
         </Row>
-      </Container>
+      </Container> */}
       <h1
         style={{
           textAlign: "center",

@@ -11,6 +11,13 @@ import Education from "./Education";
 
 const experience = [
   {
+    id: 5,
+    job: "Software Development Intern",
+    date: "May – August 2022",
+    company: "Sprinklr",
+    desc: `I built an API failure anomaly detection system to determine anomalous failure rates of Sprinklr’s high volume API. I built a full-stack web app to write Sprinklr’s API failure data to analyze Sprinklr’s failure data from Influx DB and alert the API team and clients of high failure periods of API callers. I used Influx DB to store the API data and Express, React, and NodeJS for the frontend and backend.`,
+  },
+  {
     id: 1,
     job: "Full Stack Web Developer",
     date: "June – August 2021",
@@ -40,14 +47,10 @@ const experience = [
   },
   {
     id: 3,
-    job: "Stock Manager Dashboard",
-    date: "June '21 - Present",
+    job: "Multithreaded C++ Chess Engine",
+    date: "September '22 - December '22",
     company: "Personal Project",
-    desc: `I am implementing a full-stack stock bot dashboard that manages 
-    portfolio value and stock options. I am programming a system to display 
-    historical stock trends, portfolio valuation and suggest valuable stock 
-    to purchase. ReactJS is used for the frontend of the site along with plotly, 
-    and PostgreSQL is used as the database.`,
+    desc: `I created a power Chess AI in C++ using a multithreaded minimax-style chess engine and a heuristic evaluation algorithm. I increased Engine analysis depth from 4 to 6 and reduced engine latency by 60% using alpha-beta pruning. I worked with a teammate to create a 2D playable frontend using the Simple Fast Media Library (SFML).`,
   },
   {
     id: 4,
@@ -83,12 +86,12 @@ const Main = () => {
           style={{ marginLeft: "10%", marginRight: "10%", marginTop: "1%" }}
         >
           <p style={{ marginBottom: "15px" }}>
-            I'm Sushant Guha, a methodical and team-minded second-year CmpE
-            major with strong foundations in programming and software, web
-            development specializing in Distributed systems and software design.
-            Welcome to my website! This site highlights my work experience,
-            projects I have completed, the skills I have gained over time, and
-            how you can reach out to me!
+            I'm Sushant Guha, a methodical and team-minded third-year CmpE major
+            with strong foundations in programming and software, web development
+            specializing in Distributed systems and software design. Welcome to
+            my website! This site highlights my work experience, projects I have
+            completed, the skills I have gained over time, and how you can reach
+            out to me!
           </p>
         </Row>
         <Row>
@@ -140,7 +143,7 @@ const Main = () => {
                 fontSize: "medium",
                 textAlign: "center",
               }}
-              href="https://drive.google.com/file/d/10vpdnDxOcLag4Qg1y5-VOz1TBqAAzxrq/view?usp=sharing"
+              href="https://drive.google.com/file/d/1HLIJKiDuM67JiGFhNi7GEPJaSQfmHF7q/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
